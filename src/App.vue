@@ -2,6 +2,7 @@
     <div class="app">
         <!-- <Person/> -->
          <!-- <TestPage/> -->
+          <WatchTestComponent/>
     </div>
 </template>
 
@@ -9,12 +10,12 @@
 import Person from './components/Person.vue'
 import Test from './components/Test.vue';
 import TestPage from './components/TestPage.vue';
-import TestPage2 from './components/TestPage2.vue';
+import WatchTestComponent from './components/WatchTestComponent.vue';
 
 
 export default {
     name: 'App',
-    components: {Person, Test, TestPage, TestPage2}
+    components: { Test, TestPage, WatchTestComponent}
 }
 </script>
 

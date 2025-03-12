@@ -18,7 +18,6 @@ import { reactive, ref } from 'vue'
 
 const obj = {a:1}
 Object.assign(obj, {})
-console.log('[p1.1] obj', obj)
 export default {
     name: 'Person',
     setup() {
