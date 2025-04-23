@@ -2,7 +2,7 @@
     <div class="app">
         <!-- <Person/> -->
          <!-- <TestPage/> -->
-          <WatchTestComponent/>
+          <VhtmlDemo/>
     </div>
 </template>
 
@@ -11,11 +11,12 @@ import Person from './components/Person.vue'
 import Test from './components/Test.vue';
 import TestPage from './components/TestPage.vue';
 import WatchTestComponent from './components/WatchTestComponent.vue';
+import VhtmlDemo from './components/VhtmlDemo.vue';
 
 
 export default {
     name: 'App',
-    components: { Test, TestPage, WatchTestComponent}
+    components: { Test, TestPage, WatchTestComponent, VhtmlDemo}
 }
 </script>
 
